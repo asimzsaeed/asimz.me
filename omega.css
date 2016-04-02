@@ -1153,9 +1153,21 @@ input#subscribe-field {
 /*
 Custom
 ------------------------------------------------------------------*/
+
 section {
      padding-top:25px;
  }
+section.profile{
+margin-top: 0;
+}
+section.profile h1.title{
+    font-size: 7.125em;
+    text-align: center;
+    letter-spacing: -0.085em;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.15em 0 0.35em 0;
+}
 
 section .h3{
     font-family: 'Montserrat', sans-serif;
@@ -1179,7 +1191,7 @@ section a.project, section a.project:hover, section a.project:focus {
     text-decoration: none;
 }
 
-section span.date, section span.stacks{
+section span.date, section span.stacks, section span.role{
     display: block;
     font-size: 1.5rem;
     letter-spacing: -.04em;
@@ -1188,6 +1200,87 @@ section span.date, section span.stacks{
     font-weight: 400;
 }
 
+ul> li{
+    font-size: 16px;
+}
 a:hover, a:focus {
     color: #595959;
 }
+
+.section.hero> h2.title{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 8rem;
+    text-align: center;
+    letter-spacing: -4px;
+    font-weight: 700;
+    margin: 1rem 0;
+    display: block;
+    padding: 1em 0;
+}
+
+.section.intro {
+    padding-top: 40px;
+}
+.section.intro > p {
+    line-height: 2.2;
+    word-spacing: 1px;
+    font-size: 2.2rem;
+    margin: 0 auto 2.4rem;
+}
+
+.section.projects{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+}
+.section.projects> .project {
+    padding: 4em 0;
+}
+
+.section.projects> .project h1 {
+    font-size: 2.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 2.5rem 0 .5rem;
+    color: #fff;
+}
+
+.section.projects> .project.pension-now {
+    background-color: #2854A1;
+    color: #fff;
+}
+
+.section.projects> .project.log-host {
+    background-color: #51268A;
+    color: #fff;
+}
+
+.section.projects> .project.log-host-1 {
+    background-color: #478DC2;
+    color: #fff;
+}
+
+.section.projects> .project.log-host-2 {
+    background-color: #3DB899;
+    color: #fff;
+}
+
+.section.projects> .project.log-host-3 {
+    background-color: #81D1D5;
+    color: #fff;
+}
+
+.section.projects> .project.log-host-4 {
+    background-color: #C2E2A7;
+    color: #fff;
+}
+
+.section.projects> .project.log-host-5 {
+    background-color: #62B03B;
+    color: #fff;
+}
+
+
+
