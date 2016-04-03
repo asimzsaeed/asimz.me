@@ -1153,7 +1153,14 @@ input#subscribe-field {
 /*
 Custom
 ------------------------------------------------------------------*/
+.omega-nav-menu{
+    text-align: right;
+}
 
+
+.post-19 .entry-header{
+    display: none;
+}
 section {
      padding-top:25px;
  }
@@ -1245,11 +1252,24 @@ a:hover, a:focus {
     text-align: center;
     margin: 2.5rem 0 .5rem;
     color: #fff;
+    z-index: 2;
 }
+
+.section.projects> .project img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
 
 .section.projects> .project.pension-now {
     background-color: #2854A1;
     color: #fff;
+    position: relative;
+    overflow: hidden;
 }
 
 .section.projects> .project.log-host {
@@ -1283,4 +1303,46 @@ a:hover, a:focus {
 }
 
 
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    .section.hero> h2.title{
+        font-size: 8rem;
+    }
+    section.profile h1.title {
+        font-size: 7.125em;
+    }
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .section.hero> h2.title{
+        font-size: 6rem;
+    }
+    section.profile h1.title {
+        font-size: 6.125em;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .section.hero> h2.title{
+        font-size: 5rem;
+    }
+    section.profile h1.title {
+        font-size: 5em;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .section.hero> h2.title{
+        font-size: 4rem;
+    }
+    section.profile h1.title {
+        font-size: 3.5em;
+    }
+}
 
