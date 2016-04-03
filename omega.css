@@ -1157,6 +1157,13 @@ Custom
     text-align: right;
 }
 
+.omega-nav-menu a {
+    padding: 20px 5px;
+}
+
+.site-inner {
+    padding-top: 0px;
+}
 
 .post-19 .entry-header{
     display: none;
@@ -1170,7 +1177,7 @@ margin-top: 0;
 section.profile h1.title{
     font-size: 7.125em;
     text-align: center;
-    letter-spacing: -0.085em;
+    letter-spacing: -0.085em;<h3 class="h3 client">Client:<a href="http://www.sap.com/" target="_blank">SAP Product &amp; Innovation</a>, Dublin Ireland </h3>
     margin: auto;
     font-family: 'Montserrat', sans-serif;
     padding: 0.15em 0 0.35em 0;
@@ -1191,6 +1198,10 @@ section .h3{
 section .h3.client{
     margin-bottom: 10px;
     margin-top: 45px;
+}
+
+section .h3.client, .tm-5{
+    margin-top: 5px;
 }
 
 section a.project, section a.project:hover, section a.project:focus {
@@ -1222,11 +1233,11 @@ a:hover, a:focus {
     font-weight: 700;
     margin: 1rem 0;
     display: block;
-    padding: 1em 0;
+    padding: 0.5em 0;
 }
 
 .section.intro {
-    padding-top: 40px;
+    padding: 40px 0;
 }
 .section.intro > p {
     line-height: 2.2;
@@ -1243,6 +1254,46 @@ a:hover, a:focus {
 .section.projects> .project {
     padding: 4em 0;
 }
+
+.section.projects> .project p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+    padding:10px;
+}
+
+.section.projects> .project p a{
+    color: #fff;
+    border-color: #fff;
+    text-shadow: none;
+    background-image: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: .25em .75em;
+    position: relative;
+    text-align: center;
+    width: auto;
+    border: 1px solid;
+    border-radius: 3px;
+    box-sizing: border-box;
+    transition: all .2s;
+    margin-top: 1em;
+    min-width: 120px;
+}
+
+.section.projects> .project p a:hover {
+    border: 1px solid transparent;
+    background: #fff;
+    width: auto;
+}
+
+
+.section.projects> .project {
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
 
 .section.projects> .project h1 {
     font-size: 2.8em;
@@ -1265,21 +1316,38 @@ a:hover, a:focus {
 }
 
 
-.section.projects> .project.pension-now {
-    background-color: #2854A1;
-    color: #fff;
-    position: relative;
-    overflow: hidden;
+.section.projects> .project.build {
+  background-color: #24d8da;
 }
+
+.section.projects> .project.build p a:hover{
+    color: #24d8da;
+}
+
+
+.section.projects> .project.pension-now {
+     background-color: #58d2a7;
+ }
+
+.section.projects> .project.pension-now p a:hover{
+    color: #58d2a7;
+}
+
 
 .section.projects> .project.log-host {
     background-color: #51268A;
     color: #fff;
 }
+.section.projects> .project.log-host p a:hover{
+    color: #51268A;
+}
 
 .section.projects> .project.log-host-1 {
     background-color: #478DC2;
     color: #fff;
+}
+.section.projects> .project.log-host p a:hover{
+    color: #51268A;
 }
 
 .section.projects> .project.log-host-2 {
